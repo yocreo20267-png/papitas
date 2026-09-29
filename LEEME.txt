@@ -1,0 +1,14 @@
+BTC Widget para Android (8.0 o superior)
+
+OPCION A - Sin instalar nada (GitHub, gratis)
+1. Crea una cuenta en github.com y un repositorio nuevo (privado esta bien).
+2. Sube TODO el contenido de esta carpeta (incluida la carpeta oculta .github).
+3. Abre la pestana "Actions", espera 3-5 minutos a que termine "Construir APK".
+4. Entra a esa ejecucion, baja a "Artifacts" y descarga BTCWidget-apk.
+5. Descomprime, pasa app-debug.apk al telefono y abrelo (permite "instalar apps desconocidas").
+
+OPCION B - Android Studio
+1. Instala Android Studio (developer.android.com/studio).
+2. File > Open, elige esta carpeta y espera a que termine la sincronizacion.
+3. Build > Build Bundle(s) / APK(s) > Build APK(s).
+4. Pulsa "locate" y pasa app-debug.apk a tu telefono.
